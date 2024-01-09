@@ -12,7 +12,7 @@ const CreatProject = lazy(() => import('~/pages/creat project/CreatProject'))
 
 const Register = lazy(() => import('~/pages/register/register'))
 const Login = lazy(() => import('~/pages/login/login'))
-const EditTask = lazy(() => import('~/pages/EditTask/EditTask'))
+// const EditTask = lazy(() => import('~/pages/EditTask/EditTask'))
 
 const BTest = lazy(() => import('~/pages/board/boardTest'))
 const User = lazy(() => import('~/pages/userManagement/userManagement'))
