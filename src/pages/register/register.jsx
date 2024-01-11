@@ -42,7 +42,7 @@ function Register() {
       signUp(payload)
         .then((resp) => {
           alert('Đăng ký thành công')
-          navigate('/login')
+          navigate('/')
         })
         .catch((err) => {
           alert('Đăng ký thất bại')

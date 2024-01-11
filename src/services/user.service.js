@@ -46,9 +46,8 @@ export const editUser = async (data) => {
 }
 export const deleteUser = async (id) => {
   try {
-    const resp = await axiosAuth('/Users/deleteUser?', {
-      method: 'DELETE',
-      params: id
+    const resp = await axiosAuth(`/Users/deleteUser?id=${id}`, {
+      method: 'DELETE'
     })
 
     return resp.data.content

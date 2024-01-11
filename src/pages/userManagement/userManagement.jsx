@@ -52,6 +52,7 @@ function UserManagement() {
             const resp = await getUser()
             setUser(resp)
           })
+          setIsModalOpen(false)
         })
         .catch((err) => {
           alert('Cập nhật User thất bại')
@@ -250,6 +251,7 @@ function UserManagement() {
               icon={<DeleteOutlined />}
               danger
               onClick={() => {
+                console.log(text.userId)
                 deleteUser(text.userId)
                   .then((resp) => {
                     alert('Xóa user thành công')
@@ -259,7 +261,7 @@ function UserManagement() {
                     })
                   })
                   .catch((err) => {
-                    alert('User đã tạo project không thể xóa')
+                    alert('User chưa được xóa')
                   })
                 IIFE(async () => {
                   const resp = await getUser()
