@@ -206,7 +206,7 @@ function ResponsiveAppBar() {
                 <button
                   onClick={() => {
                     // 1. Chuyen ve trang login
-                    navigate('login')
+                    navigate('')
                     // 2. Xoa localstorage
                     removeLocal(ACCESS_TOKEN)
                     // 3. Remove tren redux;
