@@ -125,7 +125,7 @@ function Register() {
             Submit
           </button>
           <p className="pt-3">
-            Đã có tài khoản <Link to={'/login'}>Đăng nhập</Link>
+            Đã có tài khoản <Link to={'/'}>Đăng nhập</Link>
           </p>
         </Box>
       </form>
