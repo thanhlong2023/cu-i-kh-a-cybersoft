@@ -16,7 +16,7 @@ const items = [
     null,
     [
       getItem('Create Task', 'task'),
-      getItem('Project management', ''),
+      getItem('Project management', 'projectMana'),
       getItem('Create Project', 'creat'),
       getItem('User management', 'user')
     ],

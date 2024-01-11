@@ -33,7 +33,7 @@ export const router = createBrowserRouter([
         element: <CreatTask />
       },
       {
-        path: '',
+        path: 'projectMana',
         element: <ProjectManagement />
       },
       {
@@ -54,7 +54,7 @@ export const router = createBrowserRouter([
     element: <AuthTemplate />,
     children: [
       {
-        path: 'login', // -> /
+        path: '', // -> /
         element: <Login />
       },
       {

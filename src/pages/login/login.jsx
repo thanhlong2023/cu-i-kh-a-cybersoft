@@ -39,7 +39,7 @@ function Login() {
             email: resp.email
           })
         )
-        navigate('/')
+        navigate('/projectMana')
       })
     }
   })
